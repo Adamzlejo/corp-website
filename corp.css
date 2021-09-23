@@ -181,6 +181,10 @@ footer {
   padding: 5%;
 }
 @media only screen and (max-width: 576px) {
+  body {
+    width: 95%;
+    margin: 2.5%;
+  }
   div.section1 {
     background-position: bottom right;
   }
@@ -201,7 +205,7 @@ footer {
   nav.navbar ul li a {
     width: 100%;
     color: aliceblue;
-    padding: 2% 37%;
+    padding: 2% 20%;
   }
   nav.navbar ul li :hover {
     background-color: black;
@@ -241,15 +245,5 @@ footer {
     width: 100%;
     display: flex;
     padding-left: 5%;
-  }
-  div.section3 .section5 .article3 .article4 {
-    width: 50%;
-  }
-  div.section3 .section5 .article3 .article4:first-child {
-    padding: 2% 2% 2% 0;
-  }
-  div.section3 .section5 .article3 .article4:last-child {
-    padding: 2% 0 2% 2%;
-    margin-left: 10%;
   }
 }
