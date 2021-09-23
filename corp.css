@@ -205,7 +205,7 @@ footer {
   nav.navbar ul li a {
     width: 100%;
     color: aliceblue;
-    padding: 2% 20%;
+    padding: 2% 15%;
   }
   nav.navbar ul li :hover {
     background-color: black;
